@@ -1,0 +1,32 @@
+body {
+    margin-left: 200px;
+    margin-right: 400px;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height:27px;
+}
+
+h1 {
+    margin-top: 110px;
+    color: rgb(255, 87, 115)
+}
+
+h2 {
+    color: rgb(255, 87, 115)
+}
+
+h3 {
+    margin-top: -10px;
+    color: rgb(223, 133, 148)
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: -5px;
+    color: rgb(165, 58, 76)
+}
+
+.images {
+    margin-left: 20px;
+    margin-top: 20px;
+}
