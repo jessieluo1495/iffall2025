@@ -1,0 +1,98 @@
+html {
+  color: rgb(113, 113, 113); 
+  font-family: 'Merriweather', serif;
+}
+
+.p1 {
+  font-size: 18pt; 
+  margin-bottom: 28px;
+}
+
+.p2 {
+  font-size: 18pt; 
+  font-weight: bold;
+}
+
+.p3 {
+  font-size: 18pt; 
+  font-style: italic;
+}
+
+.p4 {
+   font-size: 18pt;
+   letter-spacing: -0.05em;
+   margin-bottom: 28px;
+}
+
+.p5 {
+   font-size: 18pt;
+   letter-spacing: 0.3em;
+}
+
+.p6 {
+   font-size: 18pt;
+   text-transform: capitalize;
+   margin-bottom: 28px;
+}
+
+.p7 {
+   font-size: 18pt;
+   text-transform: uppercase;
+   margin-bottom: 28px;
+}
+
+.p8 {
+   font-size: 18pt;
+   text-transform: lowercase;
+}
+
+.p9 {
+   font-size: 18pt;
+   text-decoration: underline;
+   margin-bottom: 28px;
+}
+
+.p10 {
+   font-size: 18pt;
+   text-decoration: overline;
+   margin-bottom: 28px;
+   margin-top: 6px;
+}
+
+.p11 {
+   font-size: 18pt;
+   text-decoration: line-through;
+   margin-bottom: 28px;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 60px;
+  font-size: 22pt;
+  color: rgb(255, 96, 96);
+  margin-bottom: 10px;
+}
+
+.SPACE {
+  margin-top: 70px;
+}
+
+.First {
+  margin-top: 50px;
+  margin-bottom: -10px;
+  font-size: 29pt;
+  color: red;
+}
+
+body {
+  margin-left: 80px;
+}
+
+.light {
+  font-size: 18pt;
+  font-weight: 300;
+  margin-bottom: 28px;
+}
