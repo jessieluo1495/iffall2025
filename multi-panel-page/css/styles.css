@@ -1,0 +1,162 @@
+body {
+  font-family: "Archivo Narrow", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 80px;
+    line-height: 1;
+}
+
+h2 {
+    margin: 0;
+    font-size: 30px;
+    margin-top: 16px;
+    line-height: 1;
+}
+
+h3 {
+    margin: 0;  
+    text-align: center;
+    font-size: 40px;
+    padding-top: 41px;
+}
+
+.LAST {
+    margin: auto;
+    font-size: 26px;
+    width: 717px;
+    text-align: center;
+    margin-top: 31px;
+    line-height: 1.386;
+}
+
+.Fourth {
+    background-color: rgb(136, 14, 34);
+    padding-bottom: 53px;
+    color: white;
+    width: 100%;
+}
+
+.Fourth .side {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 48px;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255,0,0,0.3);
+    background-image: url("../images/blueberries.jpg");  
+    background-position: center;
+    padding-top: 166px;
+    padding-bottom: 188px;
+    color: white;
+    width: 100%;
+    min-width:960px
+}
+
+section {
+    width: 100%;
+}
+
+section > div {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.intro {
+    background-color: rgb(33, 33, 102); 
+    padding-bottom: 56px;
+    color: white;
+}
+
+section.Third {
+    background-color: rgba(255, 231, 157, 0.937);
+    padding-bottom: 48px;
+}
+
+section.intro img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    float: right;
+    margin: 32px 0 40px 40px;
+    border: 1px solid white;
+}
+
+.para {
+    padding-top: 32px;
+    width: 960px;
+}
+
+.para p:last-child { 
+    margin-bottom: 0; 
+}
+
+.para p {
+    font-size: 18px;
+    line-height: 1.395;
+    margin-bottom: 16px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 0px;
+    width: 960px;
+    margin-top: 32px;
+    margin-left: -39px;
+}
+
+.grid li {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 11px;
+}
+
+.grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+}
+
+.Text {
+    font-size: 18px;
+    margin-right: 32px;
+    margin-top: -27px;
+    line-height: 25px;
+}
+
+.Text h4 {
+    margin-bottom: 8px;
+    font-size: 21px;
+    color: rgb(33, 33, 102);
+    letter-spacing: -0.02em;
+}
+footer {
+    background-color: rgb(102, 175, 93);
+    width: 100%;
+    padding-bottom: 41px;
+    color: white
+}
+
+footer p {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    padding-top: 41px;
+}
+
+
