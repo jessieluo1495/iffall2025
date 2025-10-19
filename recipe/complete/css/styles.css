@@ -1,0 +1,352 @@
+p {
+    font-family:'Gill Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hi {
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+h1 {
+    margin: auto;
+    font-size: 80px;
+    line-height: 1.1;
+    font-family: "warbler-text", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+header h2 {
+    font-family:'Gill Sans', sans-serif;
+    font-weight: 400;
+    margin: 2% auto 2% auto;
+    text-align: center;
+    max-width: 60%;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+    color:rgb(148, 97, 103)
+}
+
+.header-image {
+    background-image: url("../pictures/Strawberry-Tiramisu-12.jpg");  
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+header {
+    text-align: center;
+    background-color:rgba(255, 181, 226, 0.4);
+    background-position: center;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    margin: -8px;
+    color: rgb(112, 15, 28);
+}
+
+.details {
+    margin-top: 50px;
+}
+
+.details p{
+    font-size: 20px;
+}
+
+.step img {
+    width: 700px;
+    margin: auto;
+}
+
+.step .text {
+    margin-top: 50px;
+}
+
+.text .first {
+    margin-top: -4%;
+}
+
+.side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family:'Gill Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(112, 15, 28);
+    width: 60%;
+    margin: 5% auto;
+    background-color: rgba(255, 181, 226, 0.2);
+    padding: 20px 40px;
+}
+
+.ingredients .side .extra {
+    text-align: left;
+    margin: 0 10%;
+}
+
+.ingredients .side .extra ul {
+    line-height: 1.7rem;
+}
+
+.instructions {
+    margin: auto;
+    width: 50%;
+}
+
+.instructions h4 {
+    font-family:'Gill Sans', sans-serif;
+    font-size: 38px;
+    margin-bottom: 6px;
+    margin-top: 78px;
+    color: rgb(112, 15, 28);
+}
+
+.instructions .step .text p{
+    font-family:'Gill Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8rem;
+    color:rgb(148, 97, 103)
+}
+
+footer {
+    background-color:rgba(255, 181, 226, 0.4);
+    padding-top:70px;
+    padding-bottom: 70px;
+    margin: -8px;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color:rgb(112, 15, 28);
+}
+
+footer p a {
+    color:rgb(177, 62, 75);
+}
+
+.last {
+    margin-bottom: 10%;
+}
+
+
+
+@media (max-width: 970px){
+    .step img {
+        width: 500px;
+    }
+
+    .instructions {
+        width: 50%;
+    }
+    
+    .ingredients .side .extra {
+        text-align: left;
+        margin: 0 2%;
+    }   
+
+    .side {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    .right h4{
+    font-size: 33px;
+    }
+}
+
+@media (max-width: 796px) {
+    .step img {
+        width: 350px;
+    }
+    
+    header h2 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 65px;
+    }
+
+    .ingredients .side {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px 15px;
+    }
+
+    .ingredients .side .extra {
+    text-align: left;
+    margin: 0 10%;
+    }
+
+    .header-image {
+        background-image: url("../pictures/Strawberry-Tiramisu-12.jpg");  
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .instructions {
+        width: 60%;
+    }
+
+    .details p{
+    font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .step img {
+        width: 250px;
+    }
+
+    header h2 {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .ingredients .side {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px 12px;
+    }
+
+    .header-image {
+        background-image: url("../pictures/Strawberry-Tiramisu-12.jpg");  
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .instructions .step .text p{
+        font-family:'Gill Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6rem;
+    }
+
+    .instructions {
+        width: 60%;
+    }
+}
+
+@media (max-width: 430px){
+     .header-image {
+        background-image: url("../pictures/Strawberry-Tiramisu-12.jpg");  
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    header h2 {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .details p{
+        font-size: 14px;
+        margin-top: -20px;
+        line-height: 2rem;
+    }
+
+    header {
+        text-align: center;
+        background-color:rgba(255, 181, 226, 0.4);
+        background-position: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin: -8px;
+        color: rgb(112, 15, 28);
+    }
+
+    .details img{
+        width: 14px;
+    }
+
+    footer p{
+        font-size: 16px
+    }
+}
+
+@media (max-width: 350px){
+    .step img {
+        width: 200px;
+    }
+
+    .ingredients .side .extra {
+        text-align: left;
+        margin: 0 1%;
+        font-size: 12px;
+        line-height: 1rem;
+    }
+
+    footer p{
+        font-size: 14px
+    }
+
+    .details p{
+        font-size: 12px;
+        margin-top: -20px;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 280px){
+    .step img {
+        width: 100px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+
+    header h2 {
+        font-size: 10px;
+    }
+
+    .instructions .step .text p{
+        font-family:'Gill Sans', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.2rem;
+    }
+
+    .right h4{
+        font-size: 22px;
+    }
+
+    .ingredients .side .extra ul{
+        text-align: left;
+        margin: 0;
+        font-size: 10px;
+        line-height: 1.1rem;
+    }
+
+    footer p{
+        font-size: 12px
+    }
+
+    .details p{
+        font-size: 10px;
+        margin-top: -20px;
+        line-height: 2rem;
+    }
+}
