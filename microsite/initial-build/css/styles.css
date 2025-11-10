@@ -1,0 +1,393 @@
+/* INDEX.HTML */
+
+body {
+    margin: 0;
+}
+
+/* Navigation */
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 40px 0 25px 0;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 7px rgba(137, 55, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    align-items: left;
+    list-style: none;
+    gap: 60px;
+    font-size: 25px;
+    font-family: "black-han-sans", sans-serif;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FF451F;
+    letter-spacing: 3px;
+}
+
+nav ul b{
+    color: #BEB9FF;
+}
+
+/* Header */
+header {
+    background-image: url("../images/ABSTRACT\ HEADER\ IMAGE.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 670px;
+    margin: 0;
+    padding: 1px;
+}
+
+h2 {
+    font-family:"Archivo", sans-serif;
+    color:  #FF451F;
+    text-align: left;
+    padding-top: 330px;
+    padding-left: 430px;
+    width: 22%;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    line-height: 1.5;
+}
+
+/* Home Content */
+h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+p {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    padding: 0 0 320px 240px;
+    line-height: 1.6;
+}
+
+footer {
+    background-image: url("../images/ABSTRACT\ ENDING\ IMAGE.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+
+/* _______________________________________________________________________ */
+
+/* GALLERY.HTML */
+.gallery-header {
+    background-image: url("../images/GALLERY\ HEADER.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.Galleryh1 {
+    font-family: "black-han-sans", sans-serif;
+    font-size: 50px;
+    color: #FF451F;
+    margin-left: 25%;
+    margin-right: 40%;
+    padding-top: 70px;
+}
+
+.gallery-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 85px;
+    padding: 145px 109px;
+    list-style: none;
+}
+
+.piece {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.piece img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.piece p{
+    margin-top: 0px;
+    padding: 0;
+    margin-bottom: 150px;
+}
+
+
+
+/* _______________________________________________________________________ */
+
+/* EVENTS.HTML */
+.events-header {
+    background-image: url("../images/EVENTS\ HEADER.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.Events {
+    font-family: "black-han-sans", sans-serif;
+    font-size: 50px;
+    color: #FF451F;
+    margin-left: 25%;
+    margin-right: 40%;
+    padding-top: 70px;
+}
+
+.russian-avant-garde {
+    margin-bottom: 100px;
+}
+
+.russian-avant-garde h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.russian-avant-garde p {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px 0 0px 240px;
+}
+
+.abstract-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 90px;
+    padding: 0px 145px;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.abstract-pics p{
+    margin-bottom: -300px;
+}
+
+.pieceabstract img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Bauhaus {
+    margin-bottom: 100px;
+}
+
+.Bauhaus p {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px 0 0px 240px;
+}
+
+.bauhaus-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 90px;
+    padding: 0px 145px;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.piecebauhaus img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bauhaus-pics p{
+    margin-bottom: -20px;
+}
+
+.piecebauhaus p{
+    text-align: left;
+    padding: 0;
+}
+
+.piecebauhaus {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+
+
+
+/* _______________________________________________________________________ */
+
+/*ORIGINS.HTML */
+.origins-header {
+    background-color: rgba(255,0,0,0.3);
+    background-image: url("../images/ORIGINS\ HEADER.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.ORIGINS {
+    font-family: "black-han-sans", sans-serif;
+    font-size: 50px;
+    color:#c9c5ff;
+    margin-left: 25%;
+    margin-right: 40%;
+    padding-top: 70px;
+}
+
+.origins-content p{
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px 0 0px 240px;
+}
+
+.impressionalism {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.impressionalism p {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    line-height: 1.6;
+    padding: 0px 0 0px 240px;
+}
+
+.impressionalism h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.impressionalism-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 90px;
+    padding: 0px 145px;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 7%;
+}
+
+.pieceimpressionalism img{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.impressionalism-pics p{
+    margin-bottom: -20px;
+}
+
+.impressionalism-pics p{
+    text-align: left;
+    padding: 0;
+}
+
+.impressionalism-pics {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Vasilly {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Vasilly h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.artist-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 90px;
+    padding: 0px 145px;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 7%;
+}
+
+.artist1 img{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.artist-list p{
+    margin-bottom: -20px;
+}
+
+.artist-list p{
+    text-align: left;
+    padding: 0;
+}
+
+.artist-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
