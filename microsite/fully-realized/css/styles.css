@@ -1,0 +1,907 @@
+/* INDEX.HTML */
+
+body {
+    margin: 0;
+}
+
+/* Navigation */
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 40px 0 25px 0;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 7px rgba(137, 55, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    align-items: left;
+    list-style: none;
+    gap: 60px;
+    font-size: 25px;
+    font-family: "black-han-sans", sans-serif;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FF451F;
+    letter-spacing: 3px;
+}
+
+nav ul b{
+    color: #BEB9FF;
+}
+
+/* Header */
+header {
+    background-image: url("../images/ABSTRACT\ HEADER\ IMAGE.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 670px;
+    margin: 0;
+    padding: 1px;
+}
+
+/* Home Content */
+.homeh1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.homep {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    padding: 0 0 320px 240px;
+    line-height: 1.6;
+}
+
+footer {
+    background-image: url("../images/ABSTRACT\ ENDING\ IMAGE.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+/* _______________________________________________________________________ */
+
+/* GALLERY.HTML */
+.gallery-header {
+    background-image: url("../images/GALLERY\ HEADER.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.Galleryh1 {
+    font-family: "black-han-sans", sans-serif;
+    font-size: 50px;
+    color: #fd7b61;
+    text-align: center;
+    width: 100%;
+}
+
+.gallery-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 85px;
+    padding: 145px 109px;
+    list-style: none;
+}
+
+.gallery-list p{
+    margin-bottom: -150px;
+    width: 100%;
+    font-family: "Archivo", sans-serif;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+.piece {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.piece img{
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.6) 5px 5px 10px;
+}
+
+.piece p{
+    margin-top: 30px;
+    padding: 0;
+    margin-bottom: 140px;
+}
+
+.footer3 {
+    background-image: url("../images/GALLERY\ HEADER.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+/* _______________________________________________________________________ */
+
+/* EVENTS.HTML */
+.events-header {
+    background-image: url("../images/EVENTS\ HEADER.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.Events {
+    font-family: "black-han-sans", sans-serif;
+    font-size: 50px;
+    color: #FF451F;
+    text-align: center;
+    width: 100%;
+}
+
+.russian-avant-garde {
+    margin-bottom: 100px;
+}
+
+.russian-avant-garde h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.russian-avant-garde p {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px 0 0px 240px;
+}
+
+.abstract-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 90px;
+    padding: 0px 145px;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.abstract-pics p{
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    font-family: "Archivo", sans-serif;
+}
+
+.pieceabstract img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.abstract-pics li{
+   justify-content: start;
+}
+
+.Bauhaus {
+    margin-bottom: 100px;
+}
+
+.Bauhaus p {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px 0 0px 240px;
+    width: 65%;
+}
+
+.Bauhaus h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.bauhaus-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 90px;
+    padding: 0px 145px;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.piecebauhaus img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bauhaus-pics p{
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.piecebauhaus p{
+    text-align: left;
+    padding: 0;
+    font-family: "Archivo", sans-serif;
+}
+
+.piecebauhaus {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Abstract-Expressionism {
+    margin-bottom: 100px;
+}
+
+.Abstract-Expressionism p {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px 0 0px 240px;
+    width: 65%;
+}
+
+.Abstract-Expressionism h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.express-pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 90px;
+    padding: 0px 220px;
+    list-style: none;
+    margin-bottom: 180px;
+    margin-top: 0px;
+}
+
+.pieceexpress img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pieceexpress p{
+    text-align: left;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Archivo", sans-serif;
+}
+
+.pieceexpress {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.footer2 {
+    background-image: url("../images/EVENTS\ HEADER.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+/* _______________________________________________________________________ */
+
+/*ORIGINS.HTML */
+.origins-header {
+    background-color: rgba(255,0,0,0.3);
+    background-image: url("../images/ORIGINS\ HEADER.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.ORIGINS {
+    font-family: "black-han-sans", sans-serif;
+    font-size: 50px;
+    color:#ffeebb;
+    text-align: center;
+    width: 100%;
+}
+
+.origins-content p{
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    line-height: 1.6;
+    padding: 20px 0 0px 240px;
+}
+
+.origins-content h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.impressionalism {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.impressionalism p {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    width: 65%;
+    text-align: left;
+    line-height: 1.6;
+    padding: 0px 0 0px 240px;
+}
+
+.impressionalism h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.impressionalism-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 90px;
+    padding: 0px 145px;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 7%;
+}
+
+.pieceimpressionalism img{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.impressionalism-pics p{
+    margin-bottom: -20px;
+}
+
+.impressionalism-pics p{
+    text-align: left;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Archivo", sans-serif;
+}
+
+.impressionalism-pics {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Vasilly {
+    margin-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Vasilly h1 {
+    font-family: "black-han-sans", sans-serif;
+    text-align: left;
+    font-size: 47px;
+    padding: 150px 0 20px 240px;
+    color: #FF451F;
+}
+
+.artist-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 90px;
+    padding: 0px 145px;
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 7%;
+}
+
+.artist1 img{
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.artist-list p{
+    margin-bottom: 66px;
+    font-size: 18px;
+    font-family: "Archivo", sans-serif;
+}
+
+.artist-list p{
+    text-align: left;
+    padding: 0;
+}
+
+.artist-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.footer1 {
+    background-image: url("../images/ORIGINS\ HEADER.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+/* _______________________________________________________________________ */
+
+/* SOURCES.HTML */
+.sources-header {
+    background-image: url("../images/SOURCES\ HEADER.jpg");  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;    
+    margin: 0;
+    padding: 0;
+}
+
+.Source {
+    font-family: "black-han-sans", sans-serif;
+    font-size: 50px;
+    color:  #dcdaff;
+    text-align: center;
+    width: 100%;
+}
+
+.source-list {
+    margin: 6% 25%;
+}
+
+.source-list ol{
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.8;
+    color: #FF451F;
+    text-decoration: none;
+}
+
+.source-list a{
+    text-decoration: none;
+    color: #FF451F;
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.footer4 {
+    background-image: url("../images/SOURCES\ HEADER.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+/* _______________________________________________________________________ */
+
+/* Interactions */
+.links a:hover {
+    color: #BEB9FF;
+    font-weight: bolder;
+}
+
+.source-list ol li:hover {
+    color: #BEB9FF;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+
+/* _______________________________________________________________________ */
+
+/* Changing Screen Size */
+@media (max-width: 982px){
+     nav ul {
+        gap: 40px;
+        font-size: 20px;
+    }
+
+    header {
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    .gallery-header {
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+    
+    .Galleryh1 {
+        font-size: 30px;
+    }
+
+    .origins-header {
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+
+    .ORIGINS {
+        font-size: 30px;
+    }
+
+    .events-header {
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+
+    .Events {
+        font-size: 30px;
+    }
+
+    .sources-header {
+        background-position: center;
+        background-size: cover;
+        height: 100px;
+    }
+
+    .Source {
+        font-size: 30px;
+    }
+
+    .homeh1 {
+        text-align: left;
+        font-size: 30px;
+        padding: 150px 0 20px 180px;
+    }
+
+    .homep {
+        font-family: "Archivo", sans-serif;
+        font-size: 18px;
+        width: 65%;
+        text-align: left;
+        padding: 0 0 320px 180px;
+        line-height: 1.6;
+    }
+    .impressionalism p {
+        font-size: 18px;
+        width: 65%;
+        text-align: left;
+        padding: 0px 0 0px 180px;
+    }
+
+    .impressionalism h1 {
+        text-align: left;
+        font-size: 30px;
+        padding: 150px 0 20px 180px;
+    }
+
+    .origins-content p{
+        font-size: 18px;
+        width: 65%;
+        text-align: left;
+        line-height: 1.6;
+        padding: 20px 0 0px 180px;
+    }
+
+    .origins-content h1 {
+        text-align: left;
+        font-size: 30px;
+        padding: 150px 0 20px 180px;
+    }
+    .impressionalism-pics p{
+        font-size: 16px;
+    }
+
+    .artist-list p{
+        font-size: 16px;
+    }
+
+    .russian-avant-garde h1 {
+        font-size: 30px;
+        padding: 150px 0 20px 180px;
+    }
+
+    .russian-avant-garde p {
+        font-size: 18px;
+        width: 65%;
+        padding: 20px 0 0px 180px;
+    }
+
+    .abstract-pics p{
+        font-size: 16px;
+    }
+    
+    .Bauhaus p {
+        font-size: 18px;
+        padding: 20px 0 0px 180px;
+            width: 65%;
+        }
+
+    .Bauhaus h1 {
+        font-size: 30px;
+        padding: 150px 0 20px 180px;
+    }   
+
+    .bauhaus-pics p{
+        font-size: 16px;
+    }
+    
+    .Abstract-Expressionism p {
+        font-size: 18px;
+        padding: 20px 0 0px 180px;
+        width: 65%;
+    }
+
+    .Abstract-Expressionism h1 {
+        font-size: 30px;
+        padding: 150px 0 20px 180px;
+    }
+
+    .pieceexpress p{
+        font-size: 16px;
+    }
+
+    .gallery-list p{
+        font-size: 18px;
+    }
+
+    .gallery-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 50px;
+    }
+
+    .source-list ol{
+        font-size: 18px;
+    }
+
+    .source-list a{
+        font-size: 18px;
+    }
+
+    .express-pics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 70px;
+        padding: 0px 80px;
+    }
+
+    .bauhaus-pics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 70px;
+        padding: 0px 80px;
+    }
+
+    .abstract-pics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 70px;
+        padding: 0px 80px;
+    }
+}
+
+
+@media (max-width: 785px){
+    nav ul {
+        gap: 30px;
+        font-size: 16px;
+    }
+
+     header {
+        background-position: center;
+        background-size: cover;
+        height: 350px;
+    }
+
+    footer {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+} 
+
+@media (max-width: 680px){
+    nav ul {
+        gap: 30px;
+        font-size: 14px;
+    }
+
+     header {
+        background-position: center;
+        background-size: cover;
+        height: 280px;
+    }
+
+    .homeh1 {
+        text-align: left;
+        font-size: 22px;
+        padding: 100px 0 20px 110px;
+    }
+
+    .homep {
+        font-family: "Archivo", sans-serif;
+        font-size: 16px;
+        width: 65%;
+        text-align: left;
+        padding: 0 0 220px 110px;
+        line-height: 1.6;
+    }
+
+    .impressionalism p {
+        font-size: 16px;
+        width: 65%;
+        text-align: left;
+        padding: 0px 0 0px 110px;
+    }
+
+    .impressionalism h1 {
+        text-align: left;
+        font-size: 22px;
+        padding: 100px 0 20px 110px;
+    }
+
+    .origins-content p{
+        font-size: 16px;
+        width: 65%;
+        text-align: left;
+        line-height: 1.6;
+        padding: 20px 0 0px 110px;
+    }
+
+    .origins-content h1 {
+        text-align: left;
+        font-size: 22px;
+        padding: 100px 0 20px 110px;
+    }
+    .impressionalism-pics p{
+        font-size: 14px;
+    }
+
+    .artist-list p{
+        font-size: 14px;
+    }
+
+    .russian-avant-garde h1 {
+        font-size: 22px;
+        padding: 100px 0 20px 110px;
+    }
+
+    .russian-avant-garde p {
+        font-size: 16px;
+        width: 65%;
+        padding: 20px 0 0px 110px;
+    }
+
+    .abstract-pics p{
+        font-size: 14px;
+    }
+    
+    .Bauhaus p {
+        font-size: 16px;
+        padding: 20px 0 0px 110px;
+        width: 65%;
+    }
+
+    .Bauhaus h1 {
+        font-size: 22px;
+        padding: 100px 0 20px 110px;
+    }   
+
+    .bauhaus-pics p{
+        font-size: 14px;
+    }
+    
+    .Abstract-Expressionism p {
+        font-size: 16px;
+        padding: 20px 0 0px 110px;
+        width: 65%;
+    }
+
+    .Abstract-Expressionism h1 {
+        font-size: 22px;
+        padding: 100px 0 20px 110px;
+    }
+
+    .pieceexpress p{
+        font-size: 14px;
+    }
+
+    .gallery-list p{
+        font-size: 16px;
+    }
+
+    .gallery-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px 30px;
+    }
+
+    .source-list ol{
+        font-size: 16px;
+    }
+
+    .source-list a{
+        font-size: 16px;
+    }
+
+    .express-pics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 70px;
+        padding: 0px 80px;
+    }
+
+    .bauhaus-pics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 70px;
+        padding: 0px 80px;
+    }
+
+    .abstract-pics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 70px;
+        padding: 0px 80px;
+    }
+}
